@@ -734,11 +734,10 @@ button {
   width: 100%;
   height: 64px;
   background: #fff;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
 }
-.l_header + background-image: linear-gradient(to top,
-.l_header #fff1eb 0%,
-.l_header #ace0f9 100%),
-.l_header box-shadow: $boxshadow-card,
 .l_header.auto {
   transition: opacity 0.4s ease;
   -webkit-transition: opacity 0.4s ease;
@@ -748,10 +747,6 @@ button {
   -ms-transition: opacity 0.4s ease;
   visibility: hidden;
 }
-.l_header + background-image: linear-gradient(to top.show,
-.l_header #fff1eb 0%.show,
-.l_header #ace0f9 100%).show,
-.l_header box-shadow: $boxshadow-card.show,
 .l_header.auto.show {
   opacity: 1 !important;
   -webkit-opacity: 1 !important;
@@ -777,7 +772,6 @@ button {
   display: -webkit-flex /* NEW - Chrome */;
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   flex-wrap: nowrap;
   -webkit-flex-wrap: nowrap;
   -khtml-flex-wrap: nowrap;
@@ -1633,7 +1627,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1671174430320),
+    lastupdate: new Date(1671174679295),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
